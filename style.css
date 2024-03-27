@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vh;/* Largura da página */
+    height: 300vh;/* Altura  */
+}
+
+.minhadiv{
+    width: 1900px;
+    height: 600px;
+    /* background-color: red; */
+    /* Colocando uma imagem com background-image: url() */
+    background-image: url("./img/Batman.webp");
+    /* Para a imagem não repetir */
+    background-repeat: no-repeat;
+    /* Propriedade faz a imagem ficar no tamanho total da caixa(div) */
+    /* background-size: cover; */
+    /* 1°posicionamento horizontal  2º valor */
+    /* background-position: 50% 0%; */
+
+    /* imagem fica no tamanho original */
+    /* background-size: auto; */
+
+    /* Fica dentro da caixa(div) em perder qualidade */
+    /* background-size: contain; */
+} 
